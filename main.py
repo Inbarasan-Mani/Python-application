@@ -1,6 +1,6 @@
 from application import upper, lower, addition, greetings
 
-greet = greetings('Inbarasan Manivannan')
+greet = greetings('Inbarasan')
 print(greet)
 
 up = upper("Jenkins")
@@ -11,3 +11,4 @@ print(low)
 
 add = addition(12, 678)
 print(add)
+
