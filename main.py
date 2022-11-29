@@ -1,4 +1,7 @@
-from application import upper, lower, addition
+from application import upper, lower, addition, greetings
+
+greet = greetings('Inbarasan Manivannan')
+print(greet)
 
 up = upper("Jenkins")
 print(up)

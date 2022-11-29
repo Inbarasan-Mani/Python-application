@@ -1,5 +1,8 @@
 # Application file contains of functions:
 
+def greetings(name):
+	return f'Welcome Mr/Mrs. {name} :)'
+
 def addition(a, b):
 	return f'The sum of two numbers {a} and {b} is {a+b}'
 
@@ -9,3 +12,4 @@ def upper(string):
 
 def lower(string):
 	return f'Lowercase of the string - {string}: {string.lower()}'
+
